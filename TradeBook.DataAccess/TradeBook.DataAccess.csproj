@@ -11,10 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Migrations\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\TradeBook.Models\TradeBook.Models.csproj" />
     <ProjectReference Include="..\TradeBook.Utility\TradeBook.Utility.csproj" />
   </ItemGroup>
