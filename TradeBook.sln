@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeBook", "TradeBook\TradeBook.csproj", "{60D76105-B359-4DCB-BA1B-90F85EDFC1CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeBook", "TradeBook\TradeBook.csproj", "{60D76105-B359-4DCB-BA1B-90F85EDFC1CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeBook.DataAccess", "TradeBook.DataAccess\TradeBook.DataAccess.csproj", "{213CA26E-2C20-4F16-B406-1571D22F0E3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeBook.DataAccess", "TradeBook.DataAccess\TradeBook.DataAccess.csproj", "{213CA26E-2C20-4F16-B406-1571D22F0E3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeBook.Models", "TradeBook.Models\TradeBook.Models.csproj", "{923CAD95-C5A9-49B5-A095-A6B5B3A95691}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeBook.Models", "TradeBook.Models\TradeBook.Models.csproj", "{923CAD95-C5A9-49B5-A095-A6B5B3A95691}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeBook.Utility", "TradeBook.Utility\TradeBook.Utility.csproj", "{04BAC78E-58BF-4363-9E06-C7EF6DF1B4FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeBook.Utility", "TradeBook.Utility\TradeBook.Utility.csproj", "{04BAC78E-58BF-4363-9E06-C7EF6DF1B4FE}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TradebookDB", "TradebookDB\TradebookDB.sqlproj", "{06F97453-EBD0-4458-BCB4-4C1A58F8DF11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,12 @@ Global
 		{04BAC78E-58BF-4363-9E06-C7EF6DF1B4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04BAC78E-58BF-4363-9E06-C7EF6DF1B4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04BAC78E-58BF-4363-9E06-C7EF6DF1B4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F97453-EBD0-4458-BCB4-4C1A58F8DF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F97453-EBD0-4458-BCB4-4C1A58F8DF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F97453-EBD0-4458-BCB4-4C1A58F8DF11}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{06F97453-EBD0-4458-BCB4-4C1A58F8DF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F97453-EBD0-4458-BCB4-4C1A58F8DF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F97453-EBD0-4458-BCB4-4C1A58F8DF11}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
