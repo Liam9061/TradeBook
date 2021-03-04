@@ -4,6 +4,11 @@ for details on configuring this project to bundle and minify static web assets. 
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
 
+@font-face {
+    src: url(Fonts/Raleway-Bold.ttf),url(Fonts/Raleway-Regular.ttf);
+    font-family: Raleway;
+}
+
 /* Resets (http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain)) */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -284,8 +289,7 @@ body.landing #header {
 /* Banner */
 
 #banner {
- 
-    background-image: url('file:///C:\Users\Ashley\Source\Repos\Liam9061\TradeBook\TradeBook\Areas\Customer\Views\Home\Images\Book_Background.jpg');
+    background-image: url('dark_tint.png'), url('Book_Background.jpg');
     background-position: center center;
     background-size: cover;
     color: #ffffff;
@@ -302,5 +306,5 @@ body.landing #header {
 
     #banner p {
         font-size: 1.5em;
-        margin-bottom: 1.75em;
+        margin-bottom: 1.75em;                
     }

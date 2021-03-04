@@ -11,7 +11,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
 </head>
 <body>
-    <header>
+    <header id="header">
+        <h1><a href="#">Tradebook</a></h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#" class="button special">Login</a></li>
+            </ul>
+        </nav>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">TradeBook</a>
@@ -44,13 +51,21 @@
             </div>
         </nav>
     </header>
+    <section id="banner">
+        <h2>Welcome to Tradebook</h2>
+        <p>Search for Books below</p>
+        <ul class="actions">
+            <li>
+                <a href="#" class="button big">Search</a>
+            </li>
+        </ul>
+    </section>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
+    <footer>
         <div class="container">
             &copy; 2021 - TradeBook - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
@@ -58,11 +73,11 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js%22%3E" ></script>
-    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js%22%3E" ></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js%22%3E" ></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js%22%3E" ></script>
-    <script src="https://kit.fontawesome.com/e19c476714.js%22%3E" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js%22%3E"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js%22%3E"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js%22%3E"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js%22%3E"></script>
+    <script src="https://kit.fontawesome.com/e19c476714.js%22%3E"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
