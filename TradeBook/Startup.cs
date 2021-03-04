@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TradeBook.DataAccess.Data;
+using TradeBook.DataAccess.Repository;
+using TradeBook.DataAccess.Repository.IRepository;
 
 namespace TradeBook
 {
@@ -34,6 +36,7 @@ namespace TradeBook
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 
