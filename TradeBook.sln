@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeBook.Models", "TradeBo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeBook.Utility", "TradeBook.Utility\TradeBook.Utility.csproj", "{04BAC78E-58BF-4363-9E06-C7EF6DF1B4FE}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TradebookDB", "TradebookDB\TradebookDB.sqlproj", "{06F97453-EBD0-4458-BCB4-4C1A58F8DF11}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,12 +33,6 @@ Global
 		{04BAC78E-58BF-4363-9E06-C7EF6DF1B4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04BAC78E-58BF-4363-9E06-C7EF6DF1B4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04BAC78E-58BF-4363-9E06-C7EF6DF1B4FE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06F97453-EBD0-4458-BCB4-4C1A58F8DF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06F97453-EBD0-4458-BCB4-4C1A58F8DF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06F97453-EBD0-4458-BCB4-4C1A58F8DF11}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{06F97453-EBD0-4458-BCB4-4C1A58F8DF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06F97453-EBD0-4458-BCB4-4C1A58F8DF11}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06F97453-EBD0-4458-BCB4-4C1A58F8DF11}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

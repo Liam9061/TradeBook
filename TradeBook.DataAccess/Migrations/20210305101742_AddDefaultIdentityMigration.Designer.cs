@@ -10,8 +10,8 @@ using TradeBook.DataAccess.Data;
 namespace TradeBook.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210304123716_AddCategoryToDb")]
-    partial class AddCategoryToDb
+    [Migration("20210305101742_AddDefaultIdentityMigration")]
+    partial class AddDefaultIdentityMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

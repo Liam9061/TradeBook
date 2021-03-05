@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace TradeBook.DataAccess.Migrations
 {
-    public partial class AddDefaultMigration : Migration
+    public partial class AddDefaultIdentityMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
